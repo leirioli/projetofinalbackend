@@ -1,7 +1,7 @@
 # projetofinalbackend
 API desenvolvida como projeto final para formação no Projeto Desenvolve, utilizando o **FastAPI**, **Alembic** e **SQLAlchemy**. O sistema permite a gestão de alunos, cursos e o controle de matrículas.
 
-## Como rodar o projeto.
+### Como rodar o projeto.
 1. Clone o repositório: *git clone [https://github.com/leirioli/projetofinalbackend.git](https://github.com/leirioli/projetofinalbackend.git)
    cd projetofinalbackend*
 2. Crie um ambiente virtual:
