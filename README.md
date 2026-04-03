@@ -1,4 +1,4 @@
-# projetofinalbackend
+# Projeto Final Backend
 API desenvolvida como projeto final para formação no Projeto Desenvolve, utilizando o **FastAPI**, **Alembic** e **SQLAlchemy**. O sistema permite a gestão de alunos, cursos e o controle de matrículas.
 
 ### Como rodar o projeto.
