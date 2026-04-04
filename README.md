@@ -1,7 +1,7 @@
 # Projeto Final Backend
 API desenvolvida como projeto final para formação no Projeto Desenvolve, utilizando o **FastAPI**, **Alembic** e **SQLAlchemy**. O sistema permite a gestão de alunos, cursos e o controle de matrículas.
 
-### Como rodar o projeto.
+### Como rodar o projeto:
 1. Clone o repositório: *git clone [https://github.com/leirioli/projetofinalbackend.git](https://github.com/leirioli/projetofinalbackend.git)
    cd projetofinalbackend*
 2. Crie um ambiente virtual:
@@ -10,3 +10,7 @@ API desenvolvida como projeto final para formação no Projeto Desenvolve, utili
    - **Ativar no Linux/Mac**: *source venv/bin/activate*
 3. Instale as dependências: *pip install -r requirements.txt*
 4. Por fim, inicie o servidor: *uvicorn main:app --reload*
+
+### Como configurar o banco de dados:
+O projeto utiliza o SQLite, com as tabelas sendo gerenciados pelo Alembic, para a criação do banco de dados e das tabelas, execute:
+    - *alembic upgrade head*
