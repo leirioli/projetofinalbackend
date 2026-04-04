@@ -21,3 +21,38 @@ O projeto utiliza o SQLite, com as tabelas sendo gerenciados pelo Alembic, para 
 
 
 Isso criará o arquivo **database.db** com as tabelas.
+
+
+### Endpoints:
+
+
+**Alunos**
++ POST /alunos/ - Cadastra um aluno
++ GET /alunos/ - Lista todos os alunos
++ GET /alunos/{aluno_id} - Busca aluno por id
++ PUT /alunos/{aluno_id} - Atualiza os dados do aluno
++ DELETE /alunos/{aluno_id} - Remove um aluno do sistema
+
+
+**Cursos**
++ GET /cursos/ - Lista todos os cursos
++ POST /cursos/ - Cadastra um curso
++ GET /cursos/{curso_id} - Busca um curso por id
++ PUT /cursos/{curso_id} - Atualiza os dados do curso
++ DELETE /cursos/{curso_id} - Remove um curso do sistema
+
+
+**Matriculas**
++ POST /matriculas/ - Matricula um aluno em um curso (limite de 5 matrículas ativas)
++ GET /matriculas/aluno/{aluno_id} - Lista todos os cursos de um aluno específico
++ GET /matriculas/curso/{curso_id} - Lista todos os alunos de um curso específico
++ PATCH /matriculas/{matricula_id}/cancelar - Altera o status da matrícula para "cancelada"
++ PATCH /matriculas/{matricula_id}/concluir - Altera o status da matrícula para "concluida"
+
+
+## Deploy
+
+
+Plataforma: Render<br>
+Link: https://projetofinalbackend-jhnv.onrender.com/docs<br>
+O Render utiliza a variável padrão PORT para expor a aplicação.
