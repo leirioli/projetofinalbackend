@@ -13,4 +13,5 @@ API desenvolvida como projeto final para formação no Projeto Desenvolve, utili
 
 ### Como configurar o banco de dados:
 O projeto utiliza o SQLite, com as tabelas sendo gerenciados pelo Alembic, para a criação do banco de dados e das tabelas, execute:
-    - *alembic upgrade head*
++ *alembic upgrade head*
+Isso criará o arquivo **database.db** com as tabelas.
